@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="zimboo">
+    <meta name="description" content="Html landing page.">
+    <title>Zimboo - Register</title>
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="assets/css/themify-icons.css" />
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            overflow-x: hidden;
+        }
+        
+        .btn-orange {
+            background-color: #ff7f04;
+        }
+        
+        .fw-600 {
+            font-weight: 600;
+        }
+        
+        .lh-2 {
+            line-height: 2;
+        }
+        
+        @media (min-width: 992px) {
+            .p-lg-6 {
+                padding: 3.5rem!important;
+            }
+        }
+        
+        @media (min-width: 992px) {
+            .p-lg-6 {
+                padding: 3.5rem!important;
+            }
+        }
+        
+        @media (max-width: 700px) {
+            .p-mb-3 {
+                padding: 1.5rem!important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <section class="main-section">
+            <div class="row mt-5">
+                <div class="col-lg-3 col-md-2"></div>
+                <div class="col-lg-6 col-md-8 p-lg-6 p-mb-3">
+                    <div class="form-section pt-4 px-4 pb-5 border border-1 rounded-top">
+                        <h3 class="mb-5">S’identifier</h3>
+                        <form action="" class="needs-validation" novalidate>
+                            <div class="form-group my-3">
+                                <input type="email" class="form-control border-dark lh-2" name="email" id="email" placeholder="Saisissez votre mail" required>
+                                <div class="invalid-feedback">
+                                    Please choose a Saisissez votre mail.
+                                </div>
+                            </div>
+                            <div class="form-group  my-3">
+                                <input type="password" class="form-control border-dark lh-2" name="password" id="password" placeholder="Mots de passe" required>
+                                <div class="invalid-feedback">
+                                    Please choose a Mots de passe.
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="form-check my-4">
+                                    <input class="form-check-input" type="checkbox" id="remember">
+                                    <label class="form-check-label text-secondary fw-600 fs-6" for="terms">
+                                        Ce rappelez de moi
+                                    </label>
+
+                                </div>
+                            </div>
+                            <p class="h5 mb-3 text-center">JJ’ai oublié mon <a href="#" class="text-dark">mot de passe ?</a></p>
+                            <button class="btn btn-orange text-white w-100 border-0 py-2 fs-5" type="submit">Se connecter</button>
+                        </form>
+                    </div>
+                    <div class="logintext bg-secondary p-2 text-white rounded-bottom">
+                        <p class="h5 mb-0 px-4 ">Je n’ais pas de compte ? <a href="register.html" class="text-white float-end">Créer ici</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-2"></div>
+        </section>
+    </main>
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
